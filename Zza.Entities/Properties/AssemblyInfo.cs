@@ -4,23 +4,23 @@ using System.Runtime.InteropServices;
 
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
-// asociada a un ensamblado.
-[assembly: AssemblyTitle("Zza.Services")]
+// asociada con un ensamblado.
+[assembly: AssemblyTitle("Zza.Entities")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Zza.Services")]
+[assembly: AssemblyProduct("Zza.Entities")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
-// a los componentes COM. Si necesita obtener acceso a un tipo en este ensamblado desde 
+// para los componentes COM.  Si necesita obtener acceso a un tipo de este ensamblado desde 
 // COM, establezca el atributo ComVisible en true en este tipo.
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("90ced57a-a135-4bef-826f-6e5da109d2f3")]
+[assembly: Guid("3e9cd0bf-b29a-4fff-bca9-c773b0fcf678")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
