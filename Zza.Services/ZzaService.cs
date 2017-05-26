@@ -10,7 +10,7 @@ namespace Zza.Services
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
     public class ZzaService : IZzaService, IDisposable
     {
-        private ZzaDbContext _context = new ZzaDbContext();
+        readonly ZzaDbContext _context = new ZzaDbContext();
 
         public List<Customer> GetCustomers()
         {

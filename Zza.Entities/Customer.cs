@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 namespace Zza.Entities
 {
@@ -6,7 +7,7 @@ namespace Zza.Entities
     public class Customer
     {
         [DataMember]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [DataMember]
         public string FirstName { get; set; }
@@ -31,6 +32,9 @@ namespace Zza.Entities
 
         [DataMember]
         public string Zip { get; set; }
+
+        [DataMember]
+        public string FullName { get { return string.Format("{0} {1}", FirstName, LastName); } set { } }
 
     }
 }

@@ -7,7 +7,7 @@ namespace Zza.Services
     [ServiceContract]
     public interface IZzaService
     {
-        [OperationBehavior]
+        [OperationContract]
         List<Product> GetProducts();
 
         [OperationContract]
